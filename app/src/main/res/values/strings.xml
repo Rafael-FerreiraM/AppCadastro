@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CadastroAlunos</string>
+    <string name="hint_nome">Nome</string>
+    <string name="hint_cpf">CPF</string>
+    <string name="hint_telefone">Telefone</string>
+    <string name="button_gerar_pdf">Gerar PDF do código</string>
+    <string name="menu_gravar">Gravar</string>
+    <string name="menu_alterar">Alterar</string>
+    <string name="menu_excluir">Excluir</string>
+    <string name="menu_voltar">Voltar</string>
+    <string name="menu">Menu</string>
+    <string name="titulo">Cadastro de Alunos</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="ver_pdf">Ver PDF</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#7359A1"
+        android:elevation="4dp"
+        android:theme="@style/MyToolbarStyle"
+        app:title="Menu" />
+
+    <!-- Campo de texto para Nome -->
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_nome" />
+
+    <!-- Campo de texto para CPF -->
+    <EditText
+        android:id="@+id/editTextCPF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_cpf" />
+
+    <!-- Campo de texto para Telefone -->
+    <EditText
+        android:id="@+id/editTextTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_telefone" />
+
+    <!-- Botão para Gravar -->
+    <Button
+        android:id="@+id/buttonGravar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_gravar" />
+
+    <!-- Botão para Alterar -->
+    <Button
+        android:id="@+id/buttonAlterar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_alterar"/>
+    <!-- Botão para Excluir -->
+    <Button
+        android:id="@+id/buttonExcluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_excluir" />
+
+    <!-- Botão para Voltar -->
+    <Button
+        android:id="@+id/buttonVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_voltar" />
+
+    <!-- Botão para Gerar PDF -->
+    <Button
+        android:id="@+id/buttonPdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_gerar_pdf" />
+</LinearLayout>
